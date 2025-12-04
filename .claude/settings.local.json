@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(adb devices:*)",
+      "Bash(where adb)",
+      "Bash(flutter devices:*)",
+      "Bash(flutter install:*)",
+      "Bash(flutter build:*)",
+      "Bash(flutter run:*)",
+      "Bash(flutter doctor:*)",
+      "Bash(findstr:*)",
+      "Bash(C:UsersAndyBoellAppDataLocalAndroidsdkplatform-toolsadb.exe kill-server)",
+      "Bash(C:UsersAndyBoellAppDataLocalAndroidsdkplatform-toolsadb.exe start-server)",
+      "Bash(\"/c/Users/AndyBoell/AppData/Local/Android/sdk/platform-tools/adb.exe\" kill-server)",
+      "Bash(\"/c/Users/AndyBoell/AppData/Local/Android/sdk/platform-tools/adb.exe\" start-server)",
+      "Bash(\"/c/Users/AndyBoell/AppData/Local/Android/sdk/platform-tools/adb.exe\" devices)",
+      "Bash(\"/c/Users/AndyBoell/AppData/Local/Android/sdk/platform-tools/adb.exe\" -s emulator-5554 install -r \"c:\\Users\\AndyBoell\\Git\\CIS-Mapper-App\\build\\app\\outputs\\flutter-apk\\app-release.apk\")",
+      "Bash(\"/c/Users/AndyBoell/AppData/Local/Android/sdk/platform-tools/adb.exe\" -s emulator-5554 shell pm list packages)",
+      "Bash(\"/c/Users/AndyBoell/AppData/Local/Android/sdk/platform-tools/adb.exe\" -s emulator-5554 reboot)",
+      "Bash(\"/c/Users/AndyBoell/AppData/Local/Android/sdk/platform-tools/adb.exe\" wait-for-device)",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

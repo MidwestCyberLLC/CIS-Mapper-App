@@ -1,0 +1,23 @@
+# Flutter & Dart
+.dart_tool/
+/.flutter-plugins
+/.flutter-plugins-dependencies
+/.packages
+build/
+/.pub-cache/
+
+# Android
+**/android/**/build/
+
+# iOS
+**/ios/Flutter/Flutter.framework/
+**/ios/Flutter/Flutter.podspec
+**/ios/Pods/
+
+# VS Code
+.vscode/
+
+# Python leftovers
+.venv/
+__pycache__/
+*.pyc

@@ -1,0 +1,27 @@
+name: flutter_app
+description: A minimal Flutter application scaffolded into this workspace.
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  # START CHANGE: Add this line below
+  flutter_launcher_icons: ^0.14.3
+  # END CHANGE
+
+flutter:
+  uses-material-design: true
+
+# Configuration Block
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/cis_mapper.png"
